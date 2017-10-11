@@ -1,0 +1,39 @@
+/*STYLESHEEETS FOR SPRITE STYLESHEEETS*/
+
+
+/*FRONT VIEW*/
+.fv {
+    background-image: url(../images/front-view/front-view.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.fv-cannons {
+    width: 338px;
+    height: 410px;
+    background-position: 0 0;
+}
+
+.fv-ie-hatch {
+    width: 338px;
+    height: 410px;
+    background-position: -338px 0;
+}
+
+.fv-mtv {
+    width: 338px;
+    height: 410px;
+    background-position: 0 -410px;
+}
+
+.fv-natural {
+    width: 338px;
+    height: 410px;
+    background-position: -338px -410px;
+}
+
+.fv-sensors {
+    width: 338px;
+    height: 410px;
+    background-position: -676px 0;
+}

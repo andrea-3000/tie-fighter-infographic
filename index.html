@@ -1,0 +1,189 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Anatomy of a TIE Fighter</title>
+  <meta name="description" content="The Anatomy of a Tie Fighter">
+  <meta name="author" content="SitePoint">
+  <link rel="icon" type="image/png" href="images/stormtrooper.png" />
+
+  <!-- BOOTSTRAP AND SCROLLING CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="css/onepage-scroll.css"> -->
+  <link rel="stylesheet" href="css/jquery.fullpage.min.css">
+
+  <!-- PARTS STYLESHEETS -->
+  <link rel="stylesheet" href="css/fv-stylesheets.css">
+  <link rel="stylesheet" href="css/rv-stylesheets.css">
+  <link rel="stylesheet" href="css/s-stylesheets.css">
+
+  <!-- QUIZ STYLESHEETS -->
+  <!-- <link rel="stylesheet" href="css/quiz/master.css"> -->
+  <link rel="stylesheet" href="css/quiz/reset.css">
+  <link rel="stylesheet" href="css/quiz/slickQuiz.css">
+
+  <!-- MORE CUSTOM -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <!-- <div class="main"> -->
+  <div id="fullpage">
+
+    <!-- TITLE CARD PAGE -->
+    <!-- <section class="page-1"> -->
+    <div class="section page-1">
+      <div class="starfield"></div>
+      <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+        <div class="col-sm-6 col-md-6 col-lg-6 title-card">
+          <img src="images/star.svg"/>
+          <h1 class="subtitle">THE ANATOMY OF A T.I.E. FIGHTER</h1>
+          <img src="images/wars.svg"/>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3"></div>
+      </div>
+    </div>
+    <!-- </section> -->
+
+    <!-- BASICS AND INTRO -->
+    <!-- <section class="page-2"> -->
+    <div class="section page-2" >
+      <div class="page-margin">
+        <h1 class="subtitle">THE BASICS</h1>
+        <div class="row content-wrapper">
+          <div class="col-sm-6 col-md-5 col-lg-5 main-description">
+            <div class="cell-wrapper">
+              <ul class="basics">
+                <li>T.I.E. = Twin Ion Engine</li></br>
+                <li>Cost: 60,000 credits</li></br>
+                <li>Manufactured by Sienar Fleet Systems</li></br>
+                <li>Holds 1 pilot, no passengers</li></br>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-7 col-lg-7 tf-no-interactive">
+            <img class="img-responsive og-tie" src="images/tie-fighter.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </section> -->
+
+    <!-- PARTS OF A TIE FIGHTER -->
+    <!-- <section class="page-3"> -->
+    <div class="section page-3">
+      <div class="page-margin">
+        <h1 class="subtitle">BREAKING IT DOWN</h1>
+        <p style="text-align:center">- click to see where each part is located -</p>
+        <br/>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <i class="fv fv-natural"></i>
+              <br/>
+              <h3>FRONT</h3>
+              <ul>
+                <li><a href="#" class="fv-li" id="mtv">Main Transparisteel Viewport</a></li>
+                <li><a href="#" class="fv-li" id="ie-hatch">Ingress/Egress Hatch</a></li>
+                <li><a href="#" class="fv-li" id="cannons">Sienar Fleet Systems (SFS) L-s1 Laser Cannon (2)</a></li>
+                <li><a href="#" class="fv-li" id="sensors">Fabritech Sensor Array (2)</a></li>
+                <li><a href="#" class="fv-li" id="natural">Reset</a></li>
+              </ul>
+            </div>
+            <br/>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <i class="s s-natural"></i>
+              <br/>
+              <h3>SIDE</h3>
+              <ul>
+                <li><a href="#" class="s-li" id="brace">Wing Braces (6)</a></li>
+                <li><a href="#" class="s-li" id="command-pod">Command Pod</a></li>
+                <li><a href="#" class="s-li" id="solars">Solar Arrays</a></li>
+                <li><a href="#" class="s-li" id="natural">Reset</a></li>
+              </ul>
+            </div>
+            <br/>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <i class="rv rv-natural"></i>
+              <br/>
+              <h3>REAR</h3>
+              <ul>
+                <li><a href="#" class="rv-li" id="jets">SFS P-w401 Ion Maneuvering Jet (2)</a></li>
+                <li><a href="#" class="rv-li" id="reactor">SFS I-a2b Solar Ionization Reactor</a></li>
+                <li><a href="#" class="rv-li" id="twin-engine">SFS P-s4 Twin Ion Engine System</a></li>
+                <li><a href="#" class="rv-li" id="natural">Reset</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </section> -->
+
+    <!-- QUIZ TIME -->
+    <!-- <section> -->
+    <div class="section page-4">
+      <div class="page-margin">
+      </br>
+        <div id="slickQuiz">
+          <h1 class="quizName"></h1>
+          <div class="quizArea">
+            <div class="quizHeader">
+              <a class="startQuiz" href="">Get Started!</a>
+            </div>
+          </div>
+          <div class="quizResults">
+            <h3 class="quizScore">You Scored: <span></span></h3>
+            <h3 class="quizLevel"><strong>Ranking:</strong> <span></span></h3>
+            <div class="quizResultsCopy"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </section> -->
+
+    <!-- SOURCES -->
+    <!-- <section> -->
+    <div class="section page-5">
+      <div class="page-margin">
+      <h1>SOURCES</h1>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/TIE_fighter">TEXT</a></li>
+        <li><a href="http://starwars.wikia.com/wiki/TIE/LN_starfighter">slickQuiz</a></li>
+        <li><a href="">slickQuiz</a></li>
+        <li><a href="">slickQuiz</a></li>
+        <li><a href="">slickQuiz</a></li>
+      </ul>
+      <h1>PLUGINS</h1>
+      <ul>
+        <li><a href="">starscroller</a></li>
+        <li><a href="">fullpage</a></li>
+        <li><a href="">slickQuiz</a></li>
+      </ul>
+      </div>
+    </div>
+    <!-- </section> -->
+  </div>
+
+  <!-- SCRIPTS AHHH -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/starscroll.min.js"></script>
+
+  <!-- WHICH SCROLLER IS BETTER? IDK -->
+  <!-- <script src="js/jquery.onepage-scroll.min.js"></script> -->
+  <script src="js/jquery.fullpage.min.js"></script>
+
+  <!-- QUIZ HAS LOTS OF SCRIPTS -->
+  <script src="js/quiz/slickQuiz-config.js"></script>
+  <script src="js/quiz/slickQuiz.js"></script>
+
+  <!-- CERSTERM SCRERPTS -->
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>

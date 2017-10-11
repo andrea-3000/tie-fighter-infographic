@@ -1,0 +1,29 @@
+.s {
+    background-image: url(../images/side-view/side-view.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.s-brace {
+    width: 349px;
+    height: 399px;
+    background-position: -5px -5px;
+}
+
+.s-command-pod {
+    width: 349px;
+    height: 399px;
+    background-position: -364px -5px;
+}
+
+.s-natural {
+    width: 353px;
+    height: 402px;
+    background-position: -723px -5px;
+}
+
+.s-solars {
+    width: 349px;
+    height: 399px;
+    background-position: -5px -417px;
+}

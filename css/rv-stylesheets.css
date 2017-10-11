@@ -1,0 +1,29 @@
+.rv {
+    background-image: url(../images/rear-view/rear-view.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.rv-jets {
+    width: 326px;
+    height: 397px;
+    background-position: -5px -5px;
+}
+
+.rv-natural {
+    width: 326px;
+    height: 397px;
+    background-position: -341px -5px;
+}
+
+.rv-reactor {
+    width: 326px;
+    height: 397px;
+    background-position: -677px -5px;
+}
+
+.rv-twin-engine {
+    width: 326px;
+    height: 397px;
+    background-position: -5px -412px;
+}

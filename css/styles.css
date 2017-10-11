@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+/*IMAGES SOURCES FTR*/
+/*https://vignette.wikia.nocookie.net/starwars/images/9/92/TIEfighter2-Fathead.png/revision/latest?cb=20161109040841
+https://i.pinimg.com/originals/41/05/ef/4105ef0c07fea4826193576161901ee4.jpg
+http://www.theforce.net/swtc/Pix/books/egvv/tieint-eg1.gif
+https://vignette.wikia.nocookie.net/disney/images/0/08/TIE_Fighter_Diagram.gif/revision/latest?cb=20140928122920*/
+
+
+a:hover {
+  text-decoration: none;
+}
+
+/*FONTS*/
+@font-face {
+  font-family: 'Serif Gothic BQ';
+  src: url('fonts/SerifGothicBQ-Heavy.otf'), format('opentype');
+}
+@font-face {
+  font-family: 'Franklin Gothic Demi Cond', sans-serif;
+	src: url('fonts/Franklin-Gothic-Demi-Cond-Regular.ttf'), format('truetype');
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.fp-tableCell {
+    padding: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Serif Gothic BQ', sans-serif;
+}
+
+p, li {
+	font-family: 'Franklin Gothic Demi Cond', sans-serif;
+}
+
+.subtitle {
+  font-size: 40px;
+	font-family: 'Serif Gothic BQ', sans-serif;
+	text-align: center;
+}
+
+/*PAGE 1: TITLE*/
+.page-1 {
+	color: white;
+	background: #000000;
+}
+
+.title-card {
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*PAGE 2: BASICS*/
+.page-2 {
+	background: #FEC42E;
+	/*background: #221d54;*/
+}
+
+.basics {
+  display: block;
+}
+
+.basics li{
+  font-size: 40px;
+}
+
+.og-tie {
+  /*width: 300px;*/
+}
+
+
+/*PAGE THREE: PARTS*/
+
+i {
+  margin: 0 auto;
+}
+
+.page-3 {
+  background: #ffffff;
+  /*background: #221d54;*/
+	/*background: #332c69;*/
+}
+
+.page-3 h3 {
+  text-align: center;
+}
+
+.page-3 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-3 li {
+  text-align: center;
+}
+
+
+
+/*PAGE SPACER*/
+.page-margin {
+	margin: 20px;
+}
+
+.content-wrapper {
+	margin: 20px;
+}
+
+.cell-wrapper {
+	margin: 20px;
+}
+
+/*CONTENT BOXES*/
+.main-description {
+
+}
+
+.main-description ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0px;
+	font-size: 18px;
+}
+
+.tall-cell {
+	height: 504px;
+}
