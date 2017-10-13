@@ -183,6 +183,19 @@
   <!-- WHICH SCROLLER IS BETTER? IDK -->
   <!-- <script src="js/jquery.onepage-scroll.min.js"></script> -->
   <script src="js/jquery.fullpage.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#fullpage').fullpage({
+      anchors: ['page-1', 'page-2', 'page-3', 'page-4', 'page-5'],
+      // sectionsColor: ['#DAC500', '#1BBC9B', '#7E8F7C'],
+      menu: '#menu',
+      navigation: true,
+      navigationPosition: 'right',
+      responsiveWidth: 1100,
+      bigSectionsDestination: 'top',
+    });
+  });
+</script>
 
   <!-- QUIZ HAS LOTS OF SCRIPTS -->
   <script src="js/quiz/slickQuiz-config.js"></script>
