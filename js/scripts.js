@@ -1,7 +1,3 @@
-$(document).ready(function() {
-	$('#fullpage').fullpage();
-});
-
 $('.starfield').starscroll(8,3,50,5,4,[255,255,255],true,true,2);
 
 var fv_current = "natural";

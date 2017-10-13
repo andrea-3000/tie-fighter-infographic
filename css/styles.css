@@ -6,6 +6,12 @@ https://i.pinimg.com/originals/41/05/ef/4105ef0c07fea4826193576161901ee4.jpg
 http://www.theforce.net/swtc/Pix/books/egvv/tieint-eg1.gif
 https://vignette.wikia.nocookie.net/disney/images/0/08/TIE_Fighter_Diagram.gif/revision/latest?cb=20140928122920*/
 
+@media (max-width: 768px) {
+  .og-tie {
+    display: none;
+  }
+}
+
 
 a:hover {
   text-decoration: none;
@@ -69,11 +75,6 @@ p, li {
 .basics li{
   font-size: 40px;
 }
-
-.og-tie {
-  /*width: 300px;*/
-}
-
 
 /*PAGE THREE: PARTS*/
 
